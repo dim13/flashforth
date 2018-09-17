@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #
 # Upload & interpreter shell for FlashForth.
 # Written for python 2.7

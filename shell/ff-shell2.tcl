@@ -1,4 +1,4 @@
-#! /usr/bin/wish
+#!/usr/bin/env wish
 #                    ff-shell.tcl
 # The Manual
 # ----------
