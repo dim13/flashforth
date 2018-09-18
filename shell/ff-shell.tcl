@@ -70,8 +70,8 @@ if { [string equal $::tcl_platform(platform) windows] } {
 }; # end if
 set ::portState closed
 
-set ::textWidth 72
-set ::textHeight 20
+set ::textWidth 80
+set ::textHeight 24
 set ::textFont Courier
 
 set ::afterLineMilliseconds 20
