@@ -56,7 +56,7 @@
 # Configuration
 # Set defaults that suit your environment.
 
-set ::baudRate 38400
+set ::baudRate 9600; # 38400
 set ::parity "n"; # n=none e=even o=odd m=mark s=space
 set ::dataBits 8; # 7 8
 set ::stopBits 1; # 1 2
@@ -66,7 +66,7 @@ if { [string equal $::tcl_platform(platform) windows] } {
     console show
     set ::serialPortName {\\.\com5}
 } else {
-    set ::serialPortName "/dev/ttyUSB0"
+    set ::serialPortName "/dev/ttyACM0"
 }; # end if
 set ::portState closed
 

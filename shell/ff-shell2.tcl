@@ -54,7 +54,7 @@
 # Configuration
 # Set defaults that suit your environment.
 
-set ::baudRate 38400
+set ::baudRate 9600; # 38400
 set ::handShake xonxoff; # none xonxoff rtscts
 if { [string equal $tcl_platform(platform) windows] } {
     console show

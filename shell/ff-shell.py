@@ -41,7 +41,7 @@ uploadMode = 0
 class Config(object):
   def __init__(self):
     self.serial_port  = '/dev/ttyACM0'
-    self.rate = '38400'
+    self.rate = '9600' # '38400'
     self.hw = False
     self.sw = False
 
